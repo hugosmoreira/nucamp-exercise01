@@ -1,0 +1,15 @@
+{
+  "name": "nucamp",
+  "version": "1.0.0",
+  "description": "This is a website for the fictional campsites review site Nucamp",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1"
+  }
+}

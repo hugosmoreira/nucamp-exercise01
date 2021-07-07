@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Lobster", sans-serif;
+}
+
+h2 {
+  color: #3046c5;
+}
+
+header h2 {
+  color: #cec8ff;
+}
+
+footer {
+  background-image: linear-gradient(#cec8ff, white);
+  padding: 20px 0;
+}
+
+.jumbotron {
+  padding: 30px;
+  background-image: linear-gradient(to right, #5637dd, #3046c5, #60106b);
+  color: white;
+}
+
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px;
+}
