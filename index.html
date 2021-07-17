@@ -36,6 +36,7 @@
   <body>
     
       <header class="jumbotron jumbotron-fluid">
+       
         <div class="container">
           <div class="row">
             <div class="col-4 col-sm-3 col-md-2 align-self-center">
@@ -44,8 +45,13 @@
             <div class="col">
               <h1>NuCamp</h1>
               <h2>a better way to camp</h2>
+              
+            </div>
+            <div class="col-md-4 col-lg-2 mt-4">
+              <a href="reserveForm"><button type="button" class="btn btn-info btn-lg">Reserve Campsite</button></a>
             </div>
           </div>
+          
         </div>
       </header>
 
@@ -132,6 +138,44 @@
             </div>
         </div>
         </div>
+      </div>
+      <div class="row row-content" >
+        <div class="col col-sm-6 mx-auto">
+          <div class="card">
+            <h3 class="card-header bg-info text-white">Reserve a Campsite</h3>
+            <div class="card-body">
+              <form id="reserveForm">
+                <div class="form-group">
+                  <label class="col col-form-label">Number of Campers</label>
+                  <div class="col ">
+                    <select id="numCampers" class="form-control">
+                      <option>Select...</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="date" class="col col-form-label">Date</label>
+                  <div class="col ">
+                    <input type="date" id="date" name="date" placeholder="date" class="form-control">
+                  </div>
+                  
+                </div>
+                <div class="form-group">
+                  <div class="col">
+                    <button type="submit" class="btn btn-primary">Search</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
       </div>
 
       <footer>
